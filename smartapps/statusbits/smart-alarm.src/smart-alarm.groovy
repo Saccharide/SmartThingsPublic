@@ -36,10 +36,7 @@ definition(
     name: "Smart Alarm",
     namespace: "statusbits",
     author: "geko@statusbits.com",
-    description: '''A multi-zone virtual alarm panel, featuring customizable\
- security zones. Setting of an alarm can activate sirens, turn on light\
- switches, push notification and text message. Alarm is armed and disarmed\
- simply by setting SmartThings location 'mode'.''',
+    description: "A multi-zone virtual alarm panel, featuring customizable security zones. Setting of an alarm can activate sirens, turn on light switches, push notification and text message. Alarm is armed and disarmed simply by setting SmartThings location 'mode'.",
     category: "Safety & Security",
     iconUrl: "http://statusbits.github.io/icons/SmartAlarm-128.png",
     iconX2Url: "http://statusbits.github.io/icons/SmartAlarm-256.png",
