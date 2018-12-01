@@ -20,5 +20,6 @@ with open ("public_description.csv" , 'w') as csv_file:
                         if in_def_block:
                             description = line.split("\"")[1]
                             done_parsing = True
-            combined = name + "," + '\"' + description + '\"\n'
-            csv_file.write(combined)
+            if name != "":
+                combined = name + "," + '\"' + description + '\"\n'
+                csv_file.write(combined)
